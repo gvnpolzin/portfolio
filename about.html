@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabriela Navarro Portfolio</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/mediaqueries.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <nav id="desktop-nav" class="desktop-nav">
+      <div class="logo">Gabriela Navarro</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Gabriela Navarro</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+          <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section class="about section">
+      <div class="row">
+        <div class="section-title">
+          <h2>About Me</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="about-content padding">
+          <div class="row">
+            <div class="about-text padding">
+              <h3>I'm Gabriela and I'm a 
+                <span id="element"></span>
+            </h3>
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed('#element', {
+                strings: ['Software Engineer.', 'Web Developer.', '<i>Data</i> Scientist.'],
+                typeSpeed: 50,
+                });
+            </script>
+              <p>
+                I'm an innovative and effective team member who is passionate about
+                neuroscience and computer science. I am a motivated and creative
+                programmer who is interested in impactful data-driven software
+                development. I am experienced applying computer science
+                fundamentals to solve challenging problems.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="education padding">
+              <h3 class="tit">Education</h3>
+              <div class="row">
+                <div class="timeline-box padding">
+                  <div class="timeline shadow-dark">
+                    <div class="timeline-time">
+                      <div class="circle-dot"></div>
+                      <div class="timeline-content">
+                        <h3 class="timeline-date">
+                          <i class="fa fa-calendar"></i>
+                          <img
+                            src="assets/education.png"
+                            alt="Education Icon"
+                            class="inline-img"
+                          />
+                          2021 - 2025
+                        </h3>
+                        <h4 class="timeline-title">
+                          Washington University in St. Louis
+                        </h4>
+                        <p class="timeline-text">
+                          Double Major in Computer Science and Cognitive
+                          Neuroscience
+                        </p>
+                      </div>
+                    </div>
+                    <div class="timeline-time">
+                      <div class="circle-dot"></div>
+                      <div class="timeline-content">
+                        <h3 class="timeline-date">
+                          <i class="fa fa-calendar"></i>
+                          <img
+                            src="assets/education.png"
+                            alt="Education Icon"
+                            class="inline-img"
+                          />
+                          2008 - 2021
+                        </h3>
+                        <h4 class="timeline-title">
+                          United Nations International School
+                        </h4>
+                        <p class="timeline-text">
+                          IB Diploma in Higher Level Physics, Biology, and
+                          Mathematics
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="experience padding">
+              <h3 class="tit">Experience</h3>
+              <div class="row">
+                <div class="timeline-box padding">
+                  <div class="timeline shadow-dark">
+                    <div class="timeline-time">
+                      <div class="circle-dot"></div>
+                      <div class="timeline-content">
+                        <h3 class="timeline-date">
+                          <i class="fa fa-calendar"></i>
+                          <img
+                            src="assets/checkmark.png"
+                            alt="Education Icon"
+                            class="inline-img"
+                          />
+                          August 2024 - present
+                        </h3>
+                        <h4 class="timeline-title">
+                          Neuroimaging Lab Research
+                        </h4>
+                        <p class="timeline-text">
+                          Will start research in August
+                        </p>
+                      </div>
+                    </div>
+                    <div class="timeline-time">
+                      <div class="circle-dot"></div>
+                      <div class="timeline-content">
+                        <h3 class="timeline-date">
+                          <i class="fa fa-calendar"></i>
+                          <img
+                            src="assets/checkmark.png"
+                            alt="Education Icon"
+                            class="inline-img"
+                          />
+                          June 2024 - August 2024
+                        </h3>
+                        <h4 class="timeline-title">
+                          Data Science Intern - Pfizer
+                        </h4>
+                        <p class="timeline-text">
+                          Designed app that conducts sentiment, categorical, and classification analysis based on excel sheet of user comments on a platform. 
+                          Currently working on an application that uses llm model and few-shot learning to automate the update documentation of a platform. 
+                        </p>
+                      </div>
+                    </div>
+                    <div class="timeline-time">
+                      <div class="circle-dot"></div>
+                      <div class="timeline-content">
+                        <h3 class="timeline-date">
+                          <i class="fa fa-calendar"></i>
+                          <img
+                            src="assets/checkmark.png"
+                            alt="Education Icon"
+                            class="inline-img"
+                          />January 2023 - Present
+                        </h3>
+                        <h4 class="timeline-title">
+                          Teachers Assistant at McKelvey School of Engineering
+                        </h4>
+                        <p>I've been a Teachers Assistant for 3 courses at my University: </p>
+                        <p class="timeline-text">
+                          - Introduction to Artificial Intelligence
+                        </p>
+                        <p class="timeline-text">
+                          - Data Structures and Algorithms
+                        </p>
+                        <p class="timeline-text">
+                          - Computer Engineering Teachers Assistant
+                        </p>
+                      </div>
+                    </div>
+                    <div class="timeline-time">
+                      <div class="circle-dot"></div>
+                      <div class="timeline-content">
+                        <h3 class="timeline-date">
+                          <i class="fa fa-calendar"></i>
+                          <img
+                            src="assets/checkmark.png"
+                            alt="Education Icon"
+                            class="inline-img"
+                          />May 2023 - August 2023
+                        </h3>
+                        <h4 class="timeline-title">iD Tech Instructor</h4>
+                        <p class="timeline-text">
+                          Designed personalized lesson plans that cater to each
+                          student's ability and taught them programming
+                          fundamentals through popular games such as Minecraft
+                          and Roblox.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

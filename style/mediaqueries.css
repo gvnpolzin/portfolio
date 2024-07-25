@@ -21,6 +21,13 @@
     #hamburger-nav {
         display: flex;
     }
+
+    .menu-links li a:hover {
+        color: #97cba9; ;
+        text-decoration: underline; 
+        text-underline-offset: 1rem;
+        text-decoration-color: #97cba9; ;
+    }
     
     #experience, .experience-details-container {
         margin-top: 2rem; 
@@ -100,6 +107,25 @@
     justify-content: center;
    }
 
+   .section-text-p2 {
+    font-size: 1.25rem;
+   }
+
+   .title {
+    font-size: 2rem;
+   }
+
+   .text-container {
+    text-align: justify;
+   }
+
+   .about .about-content .education, .about .about-content .experience {
+    flex: 0 0 100%;
+    max-width: 100%;
+    }  
+    .row {
+    flex-wrap: wrap;
+    }
 }
 
 
