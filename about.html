@@ -54,14 +54,17 @@
               <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
               <script>
                 var typed = new Typed("#element", {
-                  strings: [
-                    "Software Engineer.",
-                    "Web Developer.",
-                    "<i>Data</i> Scientist.",
-                  ],
-                  typeSpeed: 50,
+                strings: [
+                  "Software Engineer.",
+                  "Web Developer.",
+                  "Data Scientist.",
+                ],
+                typeSpeed: 50,
+                backSpeed: 30, // Speed of backspacing
+                backDelay: 1000, // Pause before backspacing in milliseconds
+                loop: true // Enable looping
                 });
-              </script>
+                </script>
               <p>
                 As a dynamic team member fueled by a passion for neuroscience
                 and computer science, I thrive on creating impactful,
