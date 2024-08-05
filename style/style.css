@@ -196,6 +196,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    
 }
 
 .btn {
@@ -346,19 +347,22 @@ article .icon {
 }
 
 .project-img {
+    width: 100%; /* Adjust as necessary */
+    max-width: 300px; /* Adjust as necessary */
+    height: 200px; /* Adjust as necessary */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
     border-radius: 2rem;
-    width: 65%;
-    height: 65%
 }
 
 .project-title {
     margin: 1rem;
     color: black;
+    text-align: center;
 }
 
 .project-btn {
     color: black;
-    border-color: rgb(163, 163, 163);
+    border-color: rgb(70, 62, 62);
 }
 
 /*CONTACT SECTION*/
