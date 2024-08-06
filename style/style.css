@@ -165,6 +165,7 @@ section {
     width: 100%;
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
     margin: 0 auto;
+    margin-bottom: 2rem;
 }
 .experience-details-container2 {
     display: flex;
