@@ -161,6 +161,7 @@ section {
     border: rgb(53,53,53) 0.1rem solid;
     border-color: rgb(163,163,163);
     text-align: center;
+    max-width: 100rem; /* Increase this value to make the container wider */
     width: 100%;
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
     margin: 0 auto;
@@ -175,12 +176,6 @@ section {
     box-sizing: border-box;
 }
 
-.about-container2 {
-    gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    margin-right: 2rem;
-}
 /* Profile Section */
 
 #profile {
