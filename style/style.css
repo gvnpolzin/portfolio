@@ -156,10 +156,15 @@ section {
     padding: 1.5rem;
     flex: 1;
     background: white;
-    margin-left: 2rem;
     background-color: #ddf9e6;
     border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
     text-align: center;
+    max-width: 80rem; /* Increase this value to make the container wider */
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin: 0 auto;
 }
 .experience-details-container2 {
     display: flex;
